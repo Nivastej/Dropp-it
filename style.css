@@ -15,6 +15,75 @@ input, button{
     font-family: "Quicksand", sans-serif;
 
 }
+footer {
+      background-color: #ffffff;
+      padding: 40px 20px;
+      border-top: 1px solid #ccc;
+      font-family: Arial, sans-serif;
+      color: #000;
+      margin-top: auto;
+  }
+  .footer-top {
+      background: rgba(255, 255, 255, 1);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      padding-bottom: 20px;
+  }
+  .footer-top div {
+      flex: 1;
+      min-width: 200px;
+  }
+  .footer-top h4 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+  }
+  .footer-top ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  .footer-top li {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+  }
+  .footer-top a {
+      text-decoration: none;
+      color: #000;
+  }
+  .footer-top a:hover {
+      text-decoration: underline;
+  }
+  .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+      font-size: 0.8em;
+      text-align: center;
+  }
+  .footer-bottom p {
+      margin: 0;
+  }
+  .social-links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .social-links a {
+      display: inline-block;
+      margin-left: 10px;
+      color: #3BB77E;
+      text-decoration: none;
+  }
+  .social-links a:hover {
+      color: #339966;
+  }
 
 
 #navbar {
