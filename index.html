@@ -749,7 +749,75 @@
 
     setActivePage();
 </script>
-
+<footer>
+    <div class="footer-top">
+        <div>
+            <h4>Drop It</h4>
+            <img src="images/logo.png" alt="Logo" style="width: 30px; height: 30px;">
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Store Locations</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Customer Service</h4>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Shipping & Delivery</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Help Center</h4>
+            <ul>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Refund</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Privacy Policy</a></li>                
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div style="display: flex; align-items: center;">
+            <p>&copy; 2024 Grocery Mart. All rights reserved. | <a href="#">Privacy Policy</a></p>
+             <img src="images/Payment.png" alt="American Express">
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll('.faq-item button').forEach(button => {
+        button.addEventListener('click', () => {
+            const answer = button.nextElementSibling;
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                button.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+            } else {
+                answer.style.display = 'block';
+                button.querySelector('i').classList.replace('fa-plus', 'fa-minus');
+            }
+        });
+    });
+  </script>
+</script>
 
 </body>
 </html>
